@@ -25,6 +25,20 @@ function NavBar() {
                       Contact
                   </Link>
               </li>
+              <li>
+                  <Link
+                      to='/resume'
+                  >
+                      Resume
+                  </Link>
+              </li>
+              <li>
+                  <Link
+                      to='/projects'
+                  >
+                      Projects
+                  </Link>
+              </li>
           </ul>
       </nav>
   )
