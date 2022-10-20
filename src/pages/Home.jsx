@@ -8,7 +8,8 @@ function Home() {
       <img 
         src='./assets/carolkang.jpeg'
         alt="carol-kang"
-        className="self-img" 
+        className="self-img"
+        height='300' 
       />
     </>
   )
