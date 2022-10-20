@@ -1,21 +1,20 @@
 import { projects } from "../data/projects"
+import ProjectCard from "../components/ProjectCard/ProjectCard"
 
 function Projects() {
 
   return (
     <>
       <h1>Projects</h1>
-      <ul>
+
 			{projects.map((project, idx) =>
-				<li>
-          <Projects
-            key={idx}
-            idx={idx}
-            projectTitle={project.title}
-				  />
-        </li>
+        <ProjectCard
+          key={idx}
+          idx={idx}
+          project={project}
+          />
 			)}
-      </ul>
+
     </>
   )
 }
