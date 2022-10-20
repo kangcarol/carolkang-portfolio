@@ -6,7 +6,7 @@ function NavBar() {
           <Link
               to='/'
           >
-              Your Name
+              Carol Kang
           </Link>
 
           <ul>
