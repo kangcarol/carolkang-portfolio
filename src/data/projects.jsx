@@ -16,7 +16,7 @@ export const projects = [
   {
     title: 'Tic Tac Toe',
     description: 'A classic game in a graphic color scheme and animation, built with Javascript, HTML, CSS',
-    image: './assets/p-TIC-TAC-TOE-winner.png',
+    image: './assets/p-TIC-TAC-TOE-main.png',
     repositoryLink: 'https://github.com/kangcarol/ttt-weekend',
     deploymentLink: 'https://carol-kang-tic-tac-toe.netlify.app/',
   }
