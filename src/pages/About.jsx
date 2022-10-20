@@ -4,7 +4,7 @@ function About() {
       <h1>About</h1>
 
       <img 
-        src="https://imgur.com/HQpD7id"
+        src='./assets/carolkang.jpeg'
         alt="carol-kang"
         className="self-img" 
       />
