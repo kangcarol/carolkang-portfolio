@@ -6,7 +6,7 @@ function Home() {
       <h1>Carol Kang</h1>
       <h2>Software Engineer</h2>
       <img 
-        src="https://imgur.com/HQpD7id"
+        src='./assets/carolkang.jpeg'
         alt="carol-kang"
         className="self-img" 
       />
