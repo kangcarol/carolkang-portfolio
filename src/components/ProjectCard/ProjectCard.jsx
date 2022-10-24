@@ -7,8 +7,10 @@ const ProjectCard = ({ project }) => {
       <h2>{project.title}</h2>
       <p>{project.description}</p>
       <img height='300' src={project.image} alt=""/>
-      <button >Learn More</button>
-      <button >View App</button>
+      <ul>
+        <li><a href={project.repositoryLink} target="_blank" rel="noreferrer">Learn More</a></li>
+        <li><a href={project.deploymentLink} target="_blank" rel="noreferrer">View App</a></li>
+      </ul>
     </>
   );
 }
