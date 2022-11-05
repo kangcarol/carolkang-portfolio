@@ -1,7 +1,9 @@
+import styles from './About.module.css'
+
 function About() {
   return (
     <>
-      <h1>About</h1>
+      <h1>ABOUT</h1>
 
       <img 
         src='./carolkang.jpeg'

@@ -2,11 +2,12 @@ import { Link } from "react-router-dom"
 
 function NavBar() {
   return (
+    <header>
       <nav>
           <Link
               to='/'
           >
-              Carol Kang
+              CAROL KANG
           </Link>
 
           <ul>
@@ -14,7 +15,7 @@ function NavBar() {
                   <Link
                       to='/about'
                   >
-                      About
+                      ABOUT
                   </Link>
               </li>
 
@@ -22,25 +23,26 @@ function NavBar() {
                   <Link
                       to='/contact'
                   >
-                      Contact
+                      CONTACT
                   </Link>
               </li>
               <li>
                   <Link
                       to='/resume'
                   >
-                      Resume
+                      RESUME
                   </Link>
               </li>
               <li>
                   <Link
                       to='/projects'
                   >
-                      Projects
+                      PROJECTS
                   </Link>
               </li>
           </ul>
       </nav>
+    </header>
   )
 }
 

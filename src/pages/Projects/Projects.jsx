@@ -1,11 +1,12 @@
-import { projects } from "../data/projects"
-import ProjectCard from "../components/ProjectCard/ProjectCard"
+import { projects } from "../../data/projects"
+import ProjectCard from "../../components/ProjectCard/ProjectCard"
+import styles from './Projects.module.css'
 
 function Projects() {
 
   return (
     <>
-      <h1>Projects</h1>
+      <h1>PROJECTS</h1>
 
 			{projects.map((project, idx) =>
         <ProjectCard

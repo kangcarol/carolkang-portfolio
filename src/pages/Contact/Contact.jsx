@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import styles from './Contact.module.css'
 
 function Contact() {
   return (
