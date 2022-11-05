@@ -6,16 +6,17 @@ function Projects() {
 
   return (
     <>
-      <h1>PROJECTS</h1>
+      <main>
+        <h1>PROJECTS</h1>
 
-			{projects.map((project, idx) =>
-        <ProjectCard
-          key={idx}
-          idx={idx}
-          project={project}
-          />
-			)}
-
+        {projects.map((project, idx) =>
+          <ProjectCard
+            key={idx}
+            idx={idx}
+            project={project}
+            />
+        )}
+      </main>
     </>
   )
 }

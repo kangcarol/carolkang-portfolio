@@ -3,7 +3,7 @@ import styles from './Home.module.css'
 function Home() {
   return (
     <>
-      <main className={styles.landing}>
+      <main className={styles.home}>
         <h1>CAROL KANG</h1>
         <h2>software engineer</h2>
         <img 

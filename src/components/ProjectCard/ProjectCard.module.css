@@ -1,0 +1,20 @@
+.ProjectCard h2 {
+  padding: 35px 0 0 0;
+}
+
+.ProjectCard img {
+  width: 100%;
+}
+
+.ProjectCard ul {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  padding: 0;
+  width: 40%;
+  padding: 2%;
+}
+
+.ProjectCard span {
+  width: 10%;
+}
