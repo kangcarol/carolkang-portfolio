@@ -1,0 +1,15 @@
+.resume h4 {
+  padding: 0% 0 8% 0;
+}
+
+.resume div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.resume p {
+  font-size: 3em;
+  color: gray;
+}

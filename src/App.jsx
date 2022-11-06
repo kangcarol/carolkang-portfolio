@@ -4,7 +4,7 @@ import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import Resume from './pages/Resume/Resume'
 import Projects from './pages/Projects/Projects'
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar/NavBar'
 import './App.css'
 
 function App() {

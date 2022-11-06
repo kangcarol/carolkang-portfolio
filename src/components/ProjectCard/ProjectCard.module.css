@@ -1,5 +1,5 @@
 .ProjectCard h2 {
-  padding: 35px 0 0 0;
+  padding: 15% 0 2% 0;
 }
 
 .ProjectCard img {
@@ -11,10 +11,18 @@
   flex-direction: row;
   justify-content:flex-start;
   padding: 0;
-  width: 40%;
-  padding: 2%;
+  width: 60%;
 }
 
 .ProjectCard span {
   width: 10%;
+}
+
+.ProjectCard p {
+  color: rgb(217, 215, 215);
+  padding: 2% 0 0 0;
+}
+
+.ProjectCard a {
+  color: rgb(179, 177, 177);
 }

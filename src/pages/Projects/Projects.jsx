@@ -7,15 +7,17 @@ function Projects() {
   return (
     <>
       <main>
-        <h1>PROJECTS</h1>
+        <section>
+          <h1>PROJECTS</h1>
 
-        {projects.map((project, idx) =>
-          <ProjectCard
-            key={idx}
-            idx={idx}
-            project={project}
-            />
-        )}
+          {projects.map((project, idx) =>
+            <ProjectCard
+              key={idx}
+              idx={idx}
+              project={project}
+              />
+          )}
+        </section>
       </main>
     </>
   )

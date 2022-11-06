@@ -1,0 +1,11 @@
+.home img {
+  border-radius: 50%;
+  width: 35%;
+  height: 35%;
+}
+
+.home li {
+ font-size: 3em;
+ color: gray;
+}
+

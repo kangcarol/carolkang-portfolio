@@ -1,0 +1,18 @@
+.about img {
+  border-radius: 5%;
+  width: 35%;
+  height: 35%;
+  border: 3px solid white;
+}
+
+.about div {
+  /* border-radius: 30% 0 0 30%; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about p {
+  width: 100%;
+  padding: 0 0 0 5%;
+}
