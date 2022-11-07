@@ -15,7 +15,7 @@ function Resume() {
 
         <h4>Click to download <a href="/Carol_Kang_Resume_2022.pdf" target="_blank" rel="noreferrer">my resume</a></h4>
 
-        <h1>Tool Box</h1>
+        <h1>TOOL BOX</h1>
           <div className={styles.resume}>          
             <p><FontAwesomeIcon icon={faReact} /></p>
             <p><FontAwesomeIcon icon={faSquareJs} /></p>
