@@ -1,11 +1,17 @@
+import React, { useState } from 'react';
 import { projects } from "../../data/projects"
-import ProjectCard from "../../components/ProjectCard/ProjectCard"
+// import ProjectCard from "../../components/ProjectCard/ProjectCard"
 import styles from './Projects.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faCode} from '@fortawesome/free-solid-svg-icons'
 import { Carousel } from 'react-bootstrap';
 
 function Projects() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  }
 
   return (
     <>
@@ -13,7 +19,6 @@ function Projects() {
         <section>
           <h1>PROJECTS</h1>
 
-          <Carousel>
           {/* {projects.map((project, idx) =>
               <ProjectCard
                 key={idx}
@@ -21,6 +26,7 @@ function Projects() {
                 project={project}
                 />
               )} */}
+          <Carousel className={styles.carousel} fade activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <a href={projects[0].deploymentLink} target="_blank" rel="noreferrer">
               <img
@@ -42,7 +48,7 @@ function Projects() {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item>
+          {/* <Carousel.Item>
             <a href={projects[1].deploymentLink} target="_blank" rel="noreferrer">
               <img
                 className="d-block w-100"
@@ -50,6 +56,8 @@ function Projects() {
                 alt={projects[1].title}
               />
               </a>
+            <footer>
+
             <Carousel.Caption>
               <h3>{projects[1].title}</h3>
               <p>{projects[1].description}</p>
@@ -61,6 +69,7 @@ function Projects() {
                 </ul>
               </div>
             </Carousel.Caption>
+            </footer>
           </Carousel.Item>
 
           <Carousel.Item>
@@ -71,6 +80,8 @@ function Projects() {
                 alt={projects[2].title}
               />
               </a>
+              <footer>
+
             <Carousel.Caption>
               <h3>{projects[2].title}</h3>
               <p>{projects[2].description}</p>
@@ -82,7 +93,8 @@ function Projects() {
                 </ul>
               </div>
             </Carousel.Caption>
-          </Carousel.Item>
+          </footer>
+          </Carousel.Item> */}
 {/* 
           <Carousel.Item>
             <a href={projects[0].deploymentLink} target="_blank" rel="noreferrer">
@@ -111,5 +123,7 @@ function Projects() {
     </>
   )
 }
+
+// render(<Projects />)
 
 export default Projects

@@ -1,0 +1,33 @@
+.carousel {
+  height: 80%;
+}
+
+/* .carousel-caption {
+  position: relative;
+  border: 1px solid black;
+  top: 0;
+  left: 0;
+  color: black;
+  text-align: left;
+  padding: 20px;
+} */
+
+.carousel-caption { bottom:-95px; }
+
+.carousel-caption {
+  height: 20%
+}
+
+.carousel-caption h3, p, a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.active h3, p, a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
