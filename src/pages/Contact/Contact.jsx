@@ -10,26 +10,35 @@ function Contact() {
     <>
       <main className={styles.contact}>
         <section>
-          <h1>CONTACT</h1>
-          <h2>Reach out if you'd like to work together!</h2>
-          <div>
-            <ul>
-              <li><a href="mailto:carolkang@me.com">Email</a></li>
-              <li><a href="https://www.linkedin.com/in/kang-carol/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-              <li><a href="https://github.com/kangcarol" target="_blank" rel="noreferrer">GitHub</a></li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li><FontAwesomeIcon icon={faUser} /></li>
-              <li><FontAwesomeIcon icon={faEnvelope} /></li>
-              <li><FontAwesomeIcon icon={faFile} /></li>
-              <li><FontAwesomeIcon icon={faGithub} /></li>
-              <li><FontAwesomeIcon icon={faLinkedin} /></li>
-              <li><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
-              <li><FontAwesomeIcon icon={faCode} /></li>
-            </ul>
-          </div>
+          <h1>Contact Information</h1>
+          <h6>Please reach out if you'd like to work together!</h6>
+
+          <article>
+            <div>
+              <a href="mailto:carolkang@me.com" target="_blank" rel="noreferrer" alt="Carol Kang email">
+                <div className={styles.contact}>
+                  <p><FontAwesomeIcon icon={faEnvelope}/></p>
+                  <p>email</p>
+                </div>
+              </a>
+              </div>
+            <div>
+              <a href="https://www.linkedin.com/in/kang-carol/" target="_blank" rel="noreferrer" alt="Carol Kang LinkedIn">
+                <div className={styles.contact}>
+                  <p><FontAwesomeIcon icon={faLinkedin}/></p>
+                  <p>LinkedIn</p>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/kangcarol" target="_blank" rel="noreferrer" alt="Carol Kang Github">
+                <div className={styles.contact}>
+                  <p><FontAwesomeIcon icon={faGithub}/></p>
+                  <p>GitHub</p>
+                </div>
+              </a>
+            </div>
+          </article>
         </section>
       </main>
     </>

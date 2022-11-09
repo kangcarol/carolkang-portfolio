@@ -3,47 +3,49 @@ import styles from './NavBar.module.css'
 
 function NavBar() {
   return (
-    <header>
+    <header class={styles.NavBar}>
       <nav>
-          <Link
-              to='/'
-          >
-              CAROL
-              <br></br>
-              KANG
-          </Link>
+        <div>
+            <h1>
+                <Link
+                    to='/'
+                >
+                    CAROL
+                    <br></br>
+                    KANG
+                </Link>
+            </h1>
 
-          <ul>
-              <li>
-                  <Link
-                      to='/about'
-                  >
-                      ABOUT
-                  </Link>
-              </li>
+            <p>
+                <Link
+                    to='/about'
+                >
+                    ABOUT
+                </Link>
+            </p>
 
-              <li>
-                  <Link
-                      to='/contact'
-                  >
-                      CONTACT
-                  </Link>
-              </li>
-              <li>
-                  <Link
-                      to='/resume'
-                  >
-                      RESUME
-                  </Link>
-              </li>
-              <li>
-                  <Link
-                      to='/projectlist'
-                  >
-                      PROJECTS
-                  </Link>
-              </li>
-          </ul>
+            <p>
+                <Link
+                    to='/contact'
+                >
+                    CONTACT
+                </Link>
+            </p>
+            <p>
+                <Link
+                    to='/resume'
+                >
+                    RESUME
+                </Link>
+            </p>
+            <p>
+                <Link
+                    to='/projectlist'
+                >
+                    PROJECTS
+                </Link>
+            </p>
+        </div>
       </nav>
     </header>
   )

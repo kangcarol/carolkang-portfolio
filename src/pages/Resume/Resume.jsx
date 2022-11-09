@@ -12,23 +12,29 @@ function Resume() {
       <main className={styles.resume}>
         <section>
         <h1>Experience & Skills</h1>
-        <section>
+        <article>
           <a href="/Carol_Kang_Resume_2022.pdf" target="_blank" rel="noreferrer" alt="Carol Kang resume">
             <div className={styles.resume}>
               <p><FontAwesomeIcon icon={faEnvelope}/></p>
-              <p>CV</p>
+              <h2>CV</h2>
             </div>
           </a>
 
         <h2>TOOL BOX</h2>
-        <ul>
-          <li><FontAwesomeIcon icon={faReact} /></li>
-          <li><FontAwesomeIcon icon={faSquareJs} /></li>
-          <li><FontAwesomeIcon icon={faHtml5} /></li>
-          <li><FontAwesomeIcon icon={faCss3Alt} /></li>
-          <li><FontAwesomeIcon icon={faGithub} /></li>
-        </ul>      
-        </section>
+        <div>
+          <p className={styles.icons}><FontAwesomeIcon icon={faReact} /></p>
+          <p className={styles.icons}><FontAwesomeIcon icon={faSquareJs} /></p>
+          <p><FontAwesomeIcon icon={faHtml5} /></p>
+          <p><FontAwesomeIcon icon={faCss3Alt} /></p>
+          <p><FontAwesomeIcon icon={faGithub} /></p>
+        </div>
+        <div>
+          <p><span>MongoDB</span></p>
+          <p><span>Mongoose</span></p>
+          <p><span>Express</span></p>
+          <p><span>Node</span></p>
+        </div>      
+        </article>
 
         </section>
       </main>

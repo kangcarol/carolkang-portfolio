@@ -19,11 +19,10 @@
 }
 
 .carousel-caption h3, p, a {
-  font-family: 'Montserrat', sans-serif; */
 /* } */
 
 .active h3, p, a {
-  font-family: 'Montserrat', sans-serif;
+  
 }
 
 ul {

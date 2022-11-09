@@ -1,7 +1,22 @@
-ul {
+* {
+  /* border: 1px solid red; */
+}
+
+.NavBar div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
-  width: 10%;
+  align-items: baseline;
+  width: 100%;
+  padding: 10% 10%;
+  /* font-size: medium; */
+}
+
+.NavBar h1 > a {
+  font-size: 1.5em;
+  color: red;
+}
+
+.NavBar a {
+  font-size: 1.5em;
 }

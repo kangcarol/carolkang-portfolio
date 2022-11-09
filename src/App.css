@@ -1,3 +1,16 @@
+html {
+  box-sizing: border-box
+}
+
+/* The Universal Selector */
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+  /* height & width will now include border & padding by default
+     but can be over-ridden as needed */
+  box-sizing: inherit;
+}
+
 .App {
   text-align: center;
 }
@@ -34,7 +47,7 @@ body {
   align-items: center;
   background-color: rgb(60, 59, 59);
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* margin: 100px 100px 25px 100px; */
 }
 
@@ -43,12 +56,14 @@ nav {
   color: white;
   position: fixed; 
   height: 100vh;
+  width: 15vw;
+  padding: 30vh 0 0 0;
 }
 
 main {
   /* margin: 100px 100px 25px 100px; */
   width: 100vw;
-  padding: 20vh 0 0 0;
+  padding: 30vh 0 0 10vw;
   display: flex;
   justify-content: center;
   align-items: center;
