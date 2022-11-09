@@ -36,7 +36,7 @@ function NavBar() {
               </li>
               <li>
                   <Link
-                      to='/projects'
+                      to='/projectlist'
                   >
                       PROJECTS
                   </Link>

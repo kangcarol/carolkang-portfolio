@@ -1,6 +1,6 @@
-.carousel {
+/* .carousel {
   height: 80%;
-}
+} */
 
 /* .carousel-caption {
   position: relative;
@@ -11,7 +11,7 @@
   text-align: left;
   padding: 20px;
 } */
-
+/* 
 .carousel-caption { bottom:-95px; }
 
 .carousel-caption {
@@ -19,8 +19,8 @@
 }
 
 .carousel-caption h3, p, a {
-  font-family: 'Montserrat', sans-serif;
-}
+  font-family: 'Montserrat', sans-serif; */
+/* } */
 
 .active h3, p, a {
   font-family: 'Montserrat', sans-serif;
