@@ -8,7 +8,9 @@ function NavBar() {
           <Link
               to='/'
           >
-              CAROL KANG
+              CAROL
+              <br></br>
+              KANG
           </Link>
 
           <ul>

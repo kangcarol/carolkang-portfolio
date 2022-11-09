@@ -11,13 +11,13 @@ function Home() {
         <section>
           <h1>CAROL KANG</h1>
           <h2>software engineer</h2>
-          <img
+          {/* <img
             src='./carolkang.jpeg'
             alt="carol-kang"
             // className={styles.self-img}
             height='300' 
-            />
-          <ul>
+            /> */}
+          {/* <ul>
             <li><FontAwesomeIcon icon={faUser} /></li>
             <li><FontAwesomeIcon icon={faEnvelope} /></li>
             <li><FontAwesomeIcon icon={faFile} /></li>
@@ -25,7 +25,7 @@ function Home() {
             <li><FontAwesomeIcon icon={faLinkedin} /></li>
             <li><FontAwesomeIcon icon={faMagnifyingGlass} /></li>
             <li><FontAwesomeIcon icon={faCode} /></li>
-          </ul>
+          </ul> */}
         </section>
       </main>
     </>
