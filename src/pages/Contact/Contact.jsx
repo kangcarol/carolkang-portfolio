@@ -18,7 +18,7 @@ function Contact() {
               <a href="mailto:carolkang@me.com" target="_blank" rel="noreferrer" alt="Carol Kang email">
                 <div className={styles.contact}>
                   <p><FontAwesomeIcon icon={faEnvelope}/></p>
-                  <p>email</p>
+                  <p>Email</p>
                 </div>
               </a>
               </div>

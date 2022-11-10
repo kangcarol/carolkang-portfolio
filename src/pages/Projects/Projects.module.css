@@ -1,0 +1,15 @@
+.projects div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.projects p {
+  font-size: 1em;
+  color: gray;
+}
+
+.projects {
+  width: 50%;
+}

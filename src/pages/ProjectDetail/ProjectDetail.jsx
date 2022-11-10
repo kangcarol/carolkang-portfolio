@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faCode} from '@fortawesome/free-solid-svg-icons'
 // import { Carousel } from 'react-bootstrap';
 
-function Projects() {
+function ProjectDetail() {
   return (
     <>
       <main>
@@ -25,4 +25,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default ProjectDetail

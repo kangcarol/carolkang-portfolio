@@ -3,7 +3,7 @@ import styles from './NavBar.module.css'
 
 function NavBar() {
   return (
-    <header class={styles.NavBar}>
+    <header className={styles.NavBar}>
       <nav>
         <div>
             <h1>
@@ -40,7 +40,7 @@ function NavBar() {
             </p>
             <p>
                 <Link
-                    to='/projectlist'
+                    to='/projects'
                 >
                     PROJECTS
                 </Link>

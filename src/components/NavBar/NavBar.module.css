@@ -8,15 +8,15 @@
   justify-content: flex-start;
   align-items: baseline;
   width: 100%;
-  padding: 10% 10%;
+  padding: 0 10%;
   /* font-size: medium; */
 }
 
 .NavBar h1 > a {
-  font-size: 1.5em;
+  font-size: 1.75em;
   color: red;
 }
 
 .NavBar a {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }

@@ -22,6 +22,10 @@
   padding: 0% 8% 0 0;
 }
 
+.contact h1 {
+  font-size: 2.75em;
+}
+
 .contact h6 {
   font-size: 1.5em;
   font-weight: 300;
@@ -30,9 +34,8 @@
 }
 
 .contact p {
-  font-size: 1.75em;
+  font-size: 1.85em;
   font-weight: 300;
   color: white;
   padding: 0 10% 0 0;
 }
-

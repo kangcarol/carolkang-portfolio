@@ -29,10 +29,10 @@ function Resume() {
           <p><FontAwesomeIcon icon={faGithub} /></p>
         </div>
         <div>
-          <p><span>MongoDB</span></p>
-          <p><span>Mongoose</span></p>
-          <p><span>Express</span></p>
-          <p><span>Node</span></p>
+          <p><h6>MongoDB</h6></p>
+          <p><h6>Mongoose</h6></p>
+          <p><h6>Express</h6></p>
+          <p><h6>Node</h6></p>
         </div>      
         </article>
 
