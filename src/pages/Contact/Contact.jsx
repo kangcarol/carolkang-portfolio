@@ -30,14 +30,6 @@ function Contact() {
                 </div>
               </a>
             </div>
-            <div>
-              <a href="https://github.com/kangcarol" target="_blank" rel="noreferrer" alt="Carol Kang Github">
-                <div className={styles.contact}>
-                  <p><FontAwesomeIcon icon={faGithub}/></p>
-                  <p>GitHub</p>
-                </div>
-              </a>
-            </div>
           </article>
         </section>
       </main>

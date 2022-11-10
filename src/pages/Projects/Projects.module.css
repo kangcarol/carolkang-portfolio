@@ -1,3 +1,8 @@
+.projects section {
+  width: 50%;
+}
+
+
 .projects div {
   display: flex;
   flex-direction: row;

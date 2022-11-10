@@ -1,24 +1,17 @@
-import React, { useState } from 'react';
+import ProjectList from "../../components/ProjectList"
 import { projects } from "../../data/projects"
-// import ProjectCard from "../../components/ProjectCard/ProjectCard"
-import styles from './Projects.module.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import styles from '../Projects/Projects.module.css'
 
-function Projects() {
+
+const Projects = () => {
   return (
     <>
-    <main>
-      <article className={styles.projects}>
-      {projects.map(project =>
-        <>
-          <h2>{project.title}</h2>
-          <p>{project.description}</p>
-        </>
-        )}
-      </article>
-      </main> 
+      <section className={styles.projects}>
+        <h2>Projects</h2>
+        <ProjectList projects={projects} />
+      </section>
     </>
   )
 }
 
-export default Projects
+export default Projects;

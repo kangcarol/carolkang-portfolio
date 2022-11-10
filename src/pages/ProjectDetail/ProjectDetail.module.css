@@ -1,32 +1,58 @@
-/* .carousel {
-  height: 80%;
-} */
-
-/* .carousel-caption {
-  position: relative;
-  border: 1px solid black;
-  top: 0;
-  left: 0;
-  color: black;
-  text-align: left;
-  padding: 20px;
-} */
-/* 
-.carousel-caption { bottom:-95px; }
-
-.carousel-caption {
-  height: 20%
+*{
+  border: 1px solid blue;
 }
 
-.carousel-caption h3, p, a {
-/* } */
-
-.active h3, p, a {
-  
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-ul {
+.ProjectDetail article {
+  /* display: flex;
+  justify-content: center; */
+  width: 50%;
+}
+
+.ProjectDetail h2 {
+  width: 50%;
+  padding: 2% 0 0% 0;
+}
+
+.ProjectDetail img {
+  width: 50%;
+}
+
+a {
+  width: 100%;
+}
+
+.ProjectDetail div {
+  width: 50%;
+}
+
+.ProjectDetail ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:flex-start;
+  padding: 0;
+  width: 50%;
+}
+
+.ProjectDetail span {
+  width: 8%;
+}
+
+.ProjectDetail p {
+  color: rgb(217, 215, 215);
+  padding: 0% 0 0 0;
+  width: 50%;
+}
+
+.ProjectDetail a {
+  color: rgb(179, 177, 177);
+}
+
+.ProjectDetail a:hover {
+  color: red;
 }

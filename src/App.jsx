@@ -4,7 +4,6 @@ import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import Resume from './pages/Resume/Resume'
 import Projects from './pages/Projects/Projects'
-// import ProjectList from './pages/ProjectList/ProjectList'
 import ProjectDetail from './pages/ProjectDetail/ProjectDetail'
 import NavBar from './components/NavBar/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -20,8 +19,7 @@ function App() {
         <Route path='contact' element={<Contact />} />
         <Route path='resume' element={<Resume />} />
         <Route path='projects' element={<Projects />} />
-        {/* <Route path='projectlist' element={<ProjectList />} /> */}
-        <Route path='projectDetail' element={<ProjectDetail />} />  
+        <Route path='projects/:projectDetail' element={<ProjectDetail />} />  
       </Routes>
     </>
   );

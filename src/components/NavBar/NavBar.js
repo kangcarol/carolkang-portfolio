@@ -3,8 +3,8 @@ import styles from './NavBar.module.css'
 
 function NavBar() {
   return (
-    <header className={styles.NavBar}>
-      <nav>
+    // <header >
+      <nav className={styles.NavBar}>
         <div>
             <h1>
                 <Link
@@ -47,7 +47,7 @@ function NavBar() {
             </p>
         </div>
       </nav>
-    </header>
+    // </header>
   )
 }
 
