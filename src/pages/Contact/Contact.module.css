@@ -23,6 +23,7 @@
   text-align: center;
   font-size: 1em;
   font-weight: 300;
+  padding: 0 0 1% 0;
 }
 
 .contact p {
@@ -40,9 +41,3 @@
   justify-items: flex-start;
   width: 40%;
 }
-
-/* a:visited {
-  color: white;
-  text-shadow: white 3px 0 10px;
-  font-weight: 500;
-} */

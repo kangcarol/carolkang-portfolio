@@ -3,10 +3,6 @@
 
 }
 
-/* img, p, ul{
-  width: 40%;
-} */
-
 .ProjectDetail ul {
   display: flex;
   flex-direction: row;

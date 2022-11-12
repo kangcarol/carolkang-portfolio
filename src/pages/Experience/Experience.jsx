@@ -31,14 +31,6 @@ function Experience() {
 
               <details className='toolbox'>
                 <summary>TOOL BOX</summary>
-                {/* <ul>
-                  <p className={styles.icons}><FontAwesomeIcon icon={faReact} /></p>
-                  <p className={styles.icons}><FontAwesomeIcon icon={faSquareJs} /></p>
-                  <p><FontAwesomeIcon icon={faHtml5} /></p>
-                  <p><FontAwesomeIcon icon={faCss3Alt} /></p>
-
-                </ul> */}
-                {/* <div> */}
                   <ul>
                     <li>React</li>
                     <li>Javascript</li>
@@ -51,7 +43,6 @@ function Experience() {
                     <li>Django</li>
                     <li>PostgreSQL</li>
                   </ul>
-                {/* </div> */}
             </details>
           </article>
         </section>

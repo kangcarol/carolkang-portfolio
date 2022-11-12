@@ -32,12 +32,6 @@ details {
   width: 15%;
 }
 
-.experience div {
-  color: red;
-  width: 25%;
-  flex-wrap: wrap;
-}
-
 .experience ul {
   display: flex;
   /* flex-direction: column; */

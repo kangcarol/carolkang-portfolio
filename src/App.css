@@ -64,9 +64,9 @@ a:hover {
   color:blue;
 }
 
-a:visited {
+a:active {
   color: white;
-  text-shadow: white 3px 0 10px;
+  text-shadow: rgb(232, 6, 168) 3px 0 10px;
   font-weight: 500;
 }
 
