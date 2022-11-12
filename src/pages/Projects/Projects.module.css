@@ -3,10 +3,12 @@
 } */
 
 article {
-  width: 50%;
+  width: 40%;
+  padding: 0 0 3% 0;
 }
 
 .projects p {
   font-size: .85em;
   font-weight: 300;
+  width: 100%;
 }
