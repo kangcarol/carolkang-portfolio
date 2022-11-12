@@ -14,22 +14,25 @@ function Contact() {
           <h6>Please reach out if you'd like to work together!</h6>
 
           <article>
-            <div>
+
+            {/* <div> */}
               <a href="mailto:carolkang@me.com" target="_blank" rel="noreferrer" alt="Carol Kang email">
-                <div className={styles.contact}>
+                <span className={styles.contact}>
                   <p><FontAwesomeIcon icon={faEnvelope}/></p>
                   <p>Email</p>
-                </div>
+                </span>
               </a>
-              </div>
-            <div>
-              <a href="https://www.linkedin.com/in/kang-carol/" target="_blank" rel="noreferrer" alt="Carol Kang LinkedIn">
-                <div className={styles.contact}>
-                  <p><FontAwesomeIcon icon={faLinkedin}/></p>
-                  <p>LinkedIn</p>
-                </div>
-              </a>
-            </div>
+              {/* </div>
+
+              <div> */}
+                <a href="https://www.linkedin.com/in/kang-carol/" target="_blank" rel="noreferrer" alt="Carol Kang LinkedIn">
+                  <span className={styles.contact}>
+                    <p><FontAwesomeIcon icon={faLinkedin}/></p>
+                    <p>LinkedIn</p>
+                  </span>
+                </a>
+            {/* </div> */}
+
           </article>
         </section>
       </main>

@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <>
     <main>
-      <section>
+      <section className={styles.projects}>
         {/* <h2 className={styles.projects}>Projects</h2> */}
         {/* <section className={styles.projects}> */}
           <ProjectList projects={projects} />

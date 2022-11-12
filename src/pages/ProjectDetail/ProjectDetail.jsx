@@ -17,13 +17,13 @@ const ProjectDetail = () => {
           <img src={project.image} alt={project.title}/>
           <p>{project.description}</p>
             
-          <span>
+          {/* <span> */}
             <ul>
               <li><a href={project.repositoryLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode} /> Code</a></li>
               <span></span>
               <li><a href={project.deploymentLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMagnifyingGlass} /> View</a></li>
             </ul>
-          </span>
+          {/* </span> */}
 
         </section>
       </main> 

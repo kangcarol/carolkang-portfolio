@@ -1,12 +1,12 @@
-img {
-  width: 100%;
-}
+/* .projects section, a, h3 {
+  width: 50%;
+} */
 
 article {
-  width: 80%;
+  width: 50%;
 }
 
-p {
+.projects p {
   font-size: .85em;
   font-weight: 300;
 }
