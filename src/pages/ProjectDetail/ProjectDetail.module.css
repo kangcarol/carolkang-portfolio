@@ -1,34 +1,23 @@
-*{
-  border: 1px solid blue;
-}
-
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.ProjectDetail article {
-  /* display: flex;
-  justify-content: center; */
+.ProjectDetail > section {
+  display: flex;
+  justify-content: center;
   width: 50%;
 }
 
 .ProjectDetail h2 {
-  width: 50%;
+  width: fit-content;
   padding: 2% 0 0% 0;
 }
 
 .ProjectDetail img {
-  width: 50%;
-}
-
-a {
   width: 100%;
-}
-
-.ProjectDetail div {
-  width: 50%;
 }
 
 .ProjectDetail ul {
@@ -39,20 +28,19 @@ a {
   width: 50%;
 }
 
-.ProjectDetail span {
-  width: 8%;
-}
-
 .ProjectDetail p {
   color: rgb(217, 215, 215);
   padding: 0% 0 0 0;
-  width: 50%;
+  width: 100%;
 }
 
-.ProjectDetail a {
-  color: rgb(179, 177, 177);
+.ProjectDetail li {
+  color: rgb(101, 99, 99); 
+  background-color: rgb(88, 87, 87);
+  padding: 5px 10px;
+  margin: 0 10px 0 0;
+  font-size: .65em;;
+  border-radius: 5px;
 }
 
-.ProjectDetail a:hover {
-  color: red;
-}
+

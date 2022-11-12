@@ -7,15 +7,17 @@ const ProjectPreview = (props) => {
   const path = hyphenateWords(props.projectTitle)
   return (
     <>
-      <div>
+      <article>
+      <Link to={`/projects/${path}`}>
+        <h3>{props.projectTitle}</h3>
         <img src={props.projectImage} alt={props.projectTitle} />
-        <section>
-          <h3>{props.projectTitle}</h3>
+        {/* <div>
           <Link to={`/projects/${path}`}>
-            <button><FontAwesomeIcon icon={faMagnifyingGlass} /> Learn More</button>
+            <FontAwesomeIcon icon={faMagnifyingGlass} /> Learn More
           </Link>
-        </section>
-      </div>
+        </div> */}
+      </Link>
+      </article>
     </>
   )
 }

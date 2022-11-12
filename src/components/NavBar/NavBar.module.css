@@ -1,23 +1,36 @@
-* {
-  /* border: 1px solid red; */
-}
-
-
-.NavBar div {
+.NavBar nav {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: baseline;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar h1 {
+  justify-content: baseline;
+  font-size: 1.25rem;
+  padding: 0 2%;
+  width: 20%;
+  margin: 0;
+}
+
+.NavBar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 0 10%;
-  /* font-size: medium; */
+  padding: 0;
+  margin: 0;
+  font-size: medium;
+} 
+
+.NavBar li {
+    padding: 0 2%;
 }
 
-.NavBar h1 > a {
-  font-size: 1.75em;
-  color: red;
-}
 
-.NavBar a {
-  font-size: 1.5rem;
-}
+
+
+/* .NavBar a {
+  padding: 0;
+} */

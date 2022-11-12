@@ -1,54 +1,27 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import styles from './NavBar.module.css'
 
 function NavBar() {
-  return (
-    // <header >
-      <nav className={styles.NavBar}>
-        <div>
-            <h1>
-                <Link
-                    to='/'
-                >
-                    CAROL
-                    <br></br>
-                    KANG
-                </Link>
-            </h1>
+    
+    const location = useLocation()
 
-            <p>
-                <Link
-                    to='/about'
-                >
-                    ABOUT
-                </Link>
-            </p>
-
-            <p>
-                <Link
-                    to='/contact'
-                >
-                    CONTACT
-                </Link>
-            </p>
-            <p>
-                <Link
-                    to='/resume'
-                >
-                    RESUME
-                </Link>
-            </p>
-            <p>
-                <Link
-                    to='/projects'
-                >
-                    PROJECTS
-                </Link>
-            </p>
-        </div>
-      </nav>
-    // </header>
-  )
+    return (
+    <header >
+        <nav className={styles.NavBar}>
+            <ul>
+                {(location.pathname ==='/') ? '' : <li><Link to='/'>CAROL KANG</Link></li>}
+                {/* {(location.pathname ==='/about') ? '' : <li><Link to='/about'>ABOUT</Link></li>}
+                {(location.pathname ==='/resume') ? '' : <li><Link to='/resume'>RESUME</Link></li>}
+                {(location.pathname ==='/projects' || location.pathname ==='projects/:projectDetail')? '' : <li><Link to='/projects'>PROJECTS</Link></li>}
+                {(location.pathname ==='/contact') ? '' : <li><Link to='/contact'>CONTACT</Link></li>} */}
+                <li><Link to='/about'>ABOUT</Link></li>
+                <li><Link to='/resume'>RESUME</Link></li>
+                <li><Link to='/projects'>PROJECTS</Link></li> 
+                <li><Link to='/contact'>CONTACT</Link></li>
+            </ul>
+        </nav>
+    </header>
+    )
 }
 
 export default NavBar

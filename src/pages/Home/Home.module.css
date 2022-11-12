@@ -4,7 +4,12 @@
   height: 35%;
 }
 
-.home div {
-  color: red;
-  font-size: 46px;
+.home h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.home h2 {
+  font-size: 2em;
+  text-align: center;
 }
