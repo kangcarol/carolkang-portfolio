@@ -2,9 +2,6 @@ import styles from './Experience.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faReact, faSquareJs, faHtml5, faCss3Alt  } from '@fortawesome/free-brands-svg-icons'
-
-
 
 function Experience() {
   return (
@@ -26,8 +23,6 @@ function Experience() {
                 <h2>GitHub</h2>
               </span>
             </a>
-  
-            {/* </div> */}
 
               <details className='toolbox'>
                 <summary>TOOL BOX</summary>
