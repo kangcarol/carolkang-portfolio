@@ -14,18 +14,16 @@ const ProjectDetail = () => {
       <main>
         <section className={styles.ProjectDetail}>
           <h2>{project.title}</h2>
-          <a href={project.deploymentLink} target="_blank" rel="noreferrer">
-            <img src={project.image} alt={project.title}/>
-          </a>
+          <img src={project.image} alt={project.title}/>
           <p>{project.description}</p>
             
-          <div>
+          <span>
             <ul>
               <li><a href={project.repositoryLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode} /> Code</a></li>
               <span></span>
               <li><a href={project.deploymentLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMagnifyingGlass} /> View</a></li>
             </ul>
-          </div>
+          </span>
 
         </section>
       </main> 

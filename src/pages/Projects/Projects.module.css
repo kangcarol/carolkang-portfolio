@@ -3,5 +3,10 @@ img {
 }
 
 article {
-  width: 40%;
+  width: 80%;
+}
+
+p {
+  font-size: .85em;
+  font-weight: 300;
 }
