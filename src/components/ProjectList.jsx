@@ -6,7 +6,8 @@ const ProjectList = (props) => {
       {props.projects.map((project, idx) =>
           <ProjectPreview
             projectTitle={project.title}
-            projectImage={project.image}
+            projectDescription={project.description}
+            // projectImage={project.image}
             key={idx}
           />
       )}

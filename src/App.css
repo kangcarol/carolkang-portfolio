@@ -65,7 +65,8 @@ a:hover {
 }
 
 a:active {
-  color: red;
+  color: white;
+  text-shadow: white 3px 0 10px;
   font-weight: 500;
 }
 
