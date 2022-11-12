@@ -10,7 +10,7 @@ function Contact() {
     <>
       <main className={styles.contact}>
         <section>
-          <h1>Contact Information</h1>
+          <h1>CONTACT INFO</h1>
           <h6>Please reach out if you'd like to work together!</h6>
 
           <article>
