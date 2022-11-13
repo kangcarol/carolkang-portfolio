@@ -24,20 +24,21 @@ function Experience() {
               </span>
             </a>
 
-              <details className='toolbox'>
-                <summary>TOOL BOX</summary>
-                  <ul>
-                    <li>React</li>
-                    <li>Javascript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>MongoDB</li>
-                    <li>Mongoose</li>
-                    <li>Express</li>
-                    <li>Node</li>
-                    <li>Django</li>
-                    <li>PostgreSQL</li>
-                  </ul>
+            <details className='toolbox'>
+              <summary>TOOL BOX</summary>
+                <ul>
+                  <li>React</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>MongoDB</li>
+                  <li>Mongoose</li>
+                  <li>Express</li>
+                  <li>Node</li>
+                  <li>Django</li>
+                  <li>PostgreSQL</li>
+                  <li>Python</li>
+                </ul>
             </details>
           </article>
         </section>
