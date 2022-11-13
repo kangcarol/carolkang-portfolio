@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*! flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .NavBar h1 {
@@ -29,9 +29,3 @@
     padding: 0 2%;
 }
 
-
-
-
-/* .NavBar a {
-  padding: 0;
-} */
