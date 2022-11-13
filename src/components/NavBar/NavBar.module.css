@@ -19,6 +19,7 @@
 
 .NavBar li {
   padding: 0 2%;
+  /* width: fit-content; */
   justify-content: space-evenly;
 }
 
