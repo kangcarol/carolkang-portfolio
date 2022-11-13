@@ -1,6 +1,11 @@
+.experience section {
+  width: 80%;
+}
+
 .experience h1 {
   text-align: center;
   font-size: 2em;
+  padding: 0 0 2% 0;
 }
 
 .experience article {
@@ -79,4 +84,11 @@ details {
     margin: 0 20%;
     padding: 2% 5%;
   }
+
+  .experience h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 0 0 8% 0;
+  }
+  
 }
