@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: rgb(34, 33, 33);
+  background-color: black;
   --text-color: white;
   font-family: 'Poppins', sans-serif;
   /* --text-color: #362C28; */
@@ -56,11 +56,12 @@ a {
 }
 
 a:hover {
-  color: rgb(255, 162, 138) 
+  color: white;
 }
 
 a:active {
-  color: rgb(232, 6, 168) 3px 0 10px;
+  /* color: rgb(255, 162, 138) ;
+  color: rgb(232, 6, 168) 3px 0 10px; */
   font-weight: 500;
 }
 

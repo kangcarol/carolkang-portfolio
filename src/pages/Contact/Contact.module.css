@@ -1,3 +1,7 @@
+.contact {
+  background-image: url('../../../public/portfolio-contact-d.png');
+  background-size: cover;
+}
 
 .contact section {
   display: flex;
@@ -34,11 +38,11 @@
 .contact p {
   padding: 0 0 0 10px;
   font-size: 1.5em;
-  color: gray;
+  color: varo(--text-color);
+  background-color: none;
   text-align: left;
   margin: 0;
   width: fit-content;
-  color: var(--text-color);
 }
 
 .contact span {
@@ -47,6 +51,7 @@
   justify-items: flex-start;
   width: 40%;
   padding: 0 5px;
+  background-color: none;
 }
 
 

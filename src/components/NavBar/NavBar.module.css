@@ -22,3 +22,11 @@
   justify-content: space-evenly;
 }
 
+.NavBar a:hover {
+  border-bottom: 1px solid white;
+}
+
+.NavBar a:active {
+  border-bottom: 1px solid white;
+}
+

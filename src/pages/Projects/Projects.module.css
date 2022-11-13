@@ -1,6 +1,7 @@
-/* .projects section {
-  width: 50%;
-} */
+.projects {
+  background-image: url('../../../public/portfolio-projects-d.png');
+  background-size: cover;
+}
 
 article {
   width: 40%;

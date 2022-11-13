@@ -1,3 +1,9 @@
+.experience {
+  background-image: url('../../../public/portfolio-experience-d.png');
+  background-size: cover;
+}
+
+
 .experience section {
   width: 80%;
 }

@@ -6,8 +6,8 @@ import styles from '../Projects/Projects.module.css'
 const Projects = () => {
   return (
     <>
-    <main>
-      <section className={styles.projects}>
+    <main  className={styles.projects}>
+      <section>
         {/* <h2 className={styles.projects}>Projects</h2> */}
         {/* <section className={styles.projects}> */}
           <ProjectList projects={projects} />

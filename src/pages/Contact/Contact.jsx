@@ -15,14 +15,14 @@ function Contact() {
           <article>
 
               <a href="mailto:carolkang@me.com" target="_blank" rel="noreferrer" alt="Carol Kang email">
-                <span className={styles.contact}>
+                <span>
                   <p><FontAwesomeIcon icon={faEnvelope}/></p>
                   <p>Email</p>
                 </span>
               </a>
 
                 <a href="https://www.linkedin.com/in/kang-carol/" target="_blank" rel="noreferrer" alt="Carol Kang LinkedIn">
-                  <span className={styles.contact}>
+                  <span>
                     <p><FontAwesomeIcon icon={faLinkedin}/></p>
                     <p>LinkedIn</p>
                   </span>

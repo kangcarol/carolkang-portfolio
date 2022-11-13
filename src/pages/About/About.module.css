@@ -1,3 +1,8 @@
+.about {
+  background-image: url('../../../public/portfolio-about-d.png');
+  background-size: cover;
+}
+
 .about div {
   display: flex;
   justify-content: center;

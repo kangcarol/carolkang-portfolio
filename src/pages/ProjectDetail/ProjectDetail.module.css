@@ -1,3 +1,8 @@
+.ProjectDetail {
+  background-image: url('../../../public/portfolio-projects-d.png');
+  background-size: cover;
+}
+
 .ProjectDetail section, img, p {
   width: 50%;
 }
