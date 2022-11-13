@@ -80,12 +80,12 @@ details {
     flex-wrap: wrap;
   }
 
-  summary {
+  .experience summary {
     width: 100%;
     margin: 0%;
   }
 
-  details {
+  .experience details {
     width: 80%;
     margin: 0 20%;
     padding: 2%;
@@ -96,5 +96,10 @@ details {
     font-size: 2em;
     padding: 0 0 8% 0;
   }
+
+  .expericence a {
+    padding: 0 0 0 2%;
+  }
+
   
 }
