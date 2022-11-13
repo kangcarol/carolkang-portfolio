@@ -7,10 +7,15 @@ article {
   padding: 0 0 3% 0;
 }
 
+.projects h3 {
+  color: var(--text-color);
+}
+
 .projects p {
   font-size: .85em;
   font-weight: 300;
   width: 100%;
+  color: var(--text-color);
 }
 
 @media only screen and (max-width: 768px) {

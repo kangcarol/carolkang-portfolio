@@ -1,3 +1,4 @@
+
 .contact section {
   display: flex;
   justify-content: center;  
@@ -19,6 +20,7 @@
   text-align: center;
   font-size: 2em;
   padding: 0 0 10px 0;
+  color: var(--text-color);
 }
 
 .contact h6 {
@@ -26,6 +28,7 @@
   font-size: 1em;
   font-weight: 300;
   padding: 1% 0;
+  color: var(--text-color);
 }
 
 .contact p {
@@ -35,6 +38,7 @@
   text-align: left;
   margin: 0;
   width: fit-content;
+  color: var(--text-color);
 }
 
 .contact span {

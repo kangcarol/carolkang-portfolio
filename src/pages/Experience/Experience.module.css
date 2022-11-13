@@ -6,6 +6,7 @@
   text-align: center;
   font-size: 2em;
   padding: 0 0 2% 0;
+  color: var(--text-color);
 }
 
 .experience article {
@@ -27,7 +28,7 @@
 .experience h2, summary {
   font-size: 1.5em;
   padding: 0 0 0 10px;
-  color: gray;
+  color: var(--text-color);
   width: fit-content;
 }
 
