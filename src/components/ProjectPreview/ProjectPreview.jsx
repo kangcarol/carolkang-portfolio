@@ -9,7 +9,7 @@ const ProjectPreview = (props) => {
     <>
       <article>
       <Link to={`/projects/${path}`}>
-        <h3>{props.projectTitle}</h3>
+        <h4><FontAwesomeIcon icon={faMagnifyingGlass} /> {props.projectTitle}</h4>
         <p>{props.projectDescription}</p>
         {/* <img src={props.projectImage} alt={props.projectTitle} /> */}
         {/* <div>
