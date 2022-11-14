@@ -5,7 +5,6 @@ function About() {
     <>
       <main className={styles.about}>
         <section>
-          {/* <h1>ABOUT</h1> */}
           <div>
           <img 
             src='./carolkang.jpeg'

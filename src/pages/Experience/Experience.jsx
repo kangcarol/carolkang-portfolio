@@ -1,6 +1,6 @@
 import styles from './Experience.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Experience() {
@@ -12,7 +12,7 @@ function Experience() {
           <article>
             <a href="/Carol_Kang_Resume_2022.pdf" target="_blank" rel="noreferrer" alt="Carol Kang resume">
               <span className={styles.resume}>
-                <p><FontAwesomeIcon icon={faEnvelope}/></p>
+                <p><FontAwesomeIcon icon={faFile}/></p>
                 <h2>CV</h2>
               </span>
             </a>
