@@ -2,7 +2,7 @@
 import styles from './Contact.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Contact() {
   return (
@@ -25,6 +25,13 @@ function Contact() {
                   <span>
                     <p><FontAwesomeIcon icon={faLinkedin}/></p>
                     <p>LinkedIn</p>
+                  </span>
+                </a>
+
+                <a href="https://github.com/kangcarol" target="_blank" rel="noreferrer" alt="Carol Kang Github">
+                  <span>
+                    <p><FontAwesomeIcon icon={faGithub}/></p>
+                    <p>Github</p>
                   </span>
                 </a>
 

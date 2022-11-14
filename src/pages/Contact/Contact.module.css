@@ -12,9 +12,9 @@
 
 .contact article {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  width: 38%;
+  width: 60%;
   flex-wrap: wrap;
   padding: 1.6% 0 0 0;
 }

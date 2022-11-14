@@ -5,8 +5,7 @@ function Home() {
     <>
       <main className={styles.home}>
         <section>
-          <h1>CAROL KANG</h1>
-          <h2>SOFTWARE ENGINEER</h2>
+          <img src="/carolkang-portfolio-logo.png" alt="Carol Kang logo"/>
         </section>
       </main>
     </>
