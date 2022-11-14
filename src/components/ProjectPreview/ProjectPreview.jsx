@@ -8,35 +8,16 @@ const ProjectPreview = (props) => {
   return (
     <>
       <article>
-      <Link to={`/projects/${path}`}>
-        <h4><FontAwesomeIcon icon={faMagnifyingGlass} /> {props.projectTitle}</h4>
-        <p>{props.projectDescription}</p>
-        {/* <img src={props.projectImage} alt={props.projectTitle} /> */}
-        {/* <div>
+        <img src={props.projectImage} alt={props.projectTitle} />
+        <div>
           <Link to={`/projects/${path}`}>
-            <FontAwesomeIcon icon={faMagnifyingGlass} /> Learn More
+            <h4><FontAwesomeIcon icon={faMagnifyingGlass} /> {props.projectTitle}</h4>
           </Link>
-        </div> */}
-      </Link>
+          <p>{props.projectDescription}</p>
+        </div>
       </article>
     </>
   )
 }
 
 export default ProjectPreview
-
-
-        
-{/* <a href={props.project.deploymentLink} target="_blank" rel="noreferrer"><img src={props.project.image} alt={props.roject.title}/></a>
-<p>{props.project.description}</p>
-<div>
-  <ul>
-    <li><a href={props.project.repositoryLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode} /> Learn More</a></li>
-    <span></span>
-    <li><a href={props.project.deploymentLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMagnifyingGlass} /> View Here</a></li>
-  </ul>
-</div>
-</article>
-</>
-)
-} */}

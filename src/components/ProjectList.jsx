@@ -5,9 +5,9 @@ const ProjectList = (props) => {
     <>
       {props.projects.map((project, idx) =>
           <ProjectPreview
+            projectImage={project.image}
             projectTitle={project.title}
             projectDescription={project.description}
-            // projectImage={project.image}
             key={idx}
           />
       )}

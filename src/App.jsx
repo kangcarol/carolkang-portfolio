@@ -22,7 +22,7 @@ function App() {
         <Route path='projects/:projectDetail' element={<ProjectDetail />} />  
       </Routes>
     </>
-  );
+  )
 }
 
 export default App;
