@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'The Botanists Library',
-    description: "The Botanist's Library is a collection of flowers, a place for gathering floral information and to keep track the community care. Built with Django, Python, HTML, CSS.",
+    description: "The Botanist's Library is a collection of flowers, a place for gathering floral information and to keep track of community care. Built with Django, Python, HTML, CSS.",
     image: '/p-THE-BOTANISTS-LIBRARY-landing.png',
     repositoryLink: 'https://github.com/kangcarol/the-botanists-library',
     deploymentLink: 'https://the-botanists-library.herokuapp.com/',
