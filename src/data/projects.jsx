@@ -1,7 +1,14 @@
 export const projects = [
   {
+    title: 'The Botanists Library',
+    description: "The Botanist's Library is a collection of flowers, a place for gathering floral information and to keep track the community care, built with Django, Python, HTML, CSS.",
+    image: '/p-THE-BOTANISTS-LIBRARY-landing.png',
+    repositoryLink: 'https://github.com/kangcarol/the-botanists-library',
+    deploymentLink: 'https://the-botanists-library.herokuapp.com/',
+  },
+  {
     title: 'Tapestry',
-    description: 'App designed for contemplation, genuine interactions, to share and learn about others, built with Mongoose, MongoDB, Express, Embedded Javascript, CSS',
+    description: 'App designed for contemplation, genuine interactions, to share and learn about others, built with Mongoose, MongoDB, Express, Embedded Javascript, CSS.',
     image: '/p-TAPESTRY-landing.png',
     repositoryLink: 'https://github.com/kangcarol/tapestry',
     deploymentLink: 'https://carolkang-tapestry-app.fly.dev/',
@@ -15,7 +22,7 @@ export const projects = [
   },
   {
     title: 'Tic Tac Toe',
-    description: 'A classic game in a graphic color scheme and animation, built with Javascript, HTML, CSS',
+    description: 'A classic game in a graphic color scheme and animation, built with Javascript, HTML, CSS.',
     image: '/p-TIC-TAC-TOE-main.png',
     repositoryLink: 'https://github.com/kangcarol/ttt-weekend',
     deploymentLink: 'https://carol-kang-tic-tac-toe.netlify.app/',
