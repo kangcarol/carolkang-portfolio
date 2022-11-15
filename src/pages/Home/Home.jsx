@@ -5,7 +5,8 @@ function Home() {
     <>
       <main className={styles.home}>
         <section>
-          <img src="/carolkang-portfolio-logo.png" alt="Carol Kang logo"/>
+          <img src="/carolkang-portfolio-logo.png" alt="Carol Kang logo" className={styles.standard}/>
+          <img src="/carolkang-portfolio-logo-mobile.png" alt="Carol Kang logo" className={styles.mobile}/>
         </section>
       </main>
     </>
