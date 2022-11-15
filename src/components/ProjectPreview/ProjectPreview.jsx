@@ -10,10 +10,11 @@ const ProjectPreview = (props) => {
       <article>
         <img src={props.projectImage} alt={props.projectTitle} />
         <div>
-          <Link to={`/projects/${path}`}>
-            <h4><FontAwesomeIcon icon={faMagnifyingGlass} /> {props.projectTitle}</h4>
-          </Link>
+          <h4>{props.projectTitle}</h4>
           <p>{props.projectDescription}</p>
+          
+          <p><Link to={`/projects/${path}`}><FontAwesomeIcon icon={faMagnifyingGlass} />    Learn More</Link></p>
+          
         </div>
       </article>
     </>

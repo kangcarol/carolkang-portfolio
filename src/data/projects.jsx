@@ -21,6 +21,13 @@ export const projects = [
     deploymentLink: 'https://carol-kang-cyoa-the-phoenix.netlify.app/',
   },
   {
+    title: 'AVI',
+    description: 'AVI is an app for birders that gives them a place to connect. App built with 3 other developers (see README file for more information). Built with React, Express, Mongoose, MongoDB, Node.js, CSS.',
+    image: '/p-AVI-landing.png',
+    repositoryLink: 'https://github.com/kangcarol/Avi-front-end',
+    deploymentLink: 'https://avi-birding.netlify.app/',
+  },
+  {
     title: 'Tic Tac Toe',
     description: 'A classic game in a graphic color scheme and animation. Built with Javascript, HTML, CSS.',
     image: '/p-TIC-TAC-TOE-main.png',

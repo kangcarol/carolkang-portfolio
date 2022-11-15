@@ -1,6 +1,8 @@
 .projects {
   background-image: url('../../../public/portfolio-projects-d.png');
   background-size: cover;
+  height: 100%;
+  padding: 10% 0 0 0;
 }
 
 .projects article {
@@ -49,6 +51,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .projects {
+    height: 100%;
+    padding: 25% 0 0 0;
+  }
+
   .projects article {
     width: 100%;
     display: flex;
