@@ -34,7 +34,7 @@ function Experience() {
                   <li>MongoDB</li>
                   <li>Mongoose</li>
                   <li>Express</li>
-                  <li>Node</li>
+                  <li>NodeJS</li>
                   <li>Django</li>
                   <li>PostgreSQL</li>
                   <li>Python</li>

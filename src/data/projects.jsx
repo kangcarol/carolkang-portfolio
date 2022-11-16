@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'The Botanists Library',
+    title: "The Botanist's Library",
     description: "The Botanist's Library is a collection of flowers, a place for gathering floral information and to keep track of community care. Built with Django, Python, HTML, CSS.",
     image: '/p-THE-BOTANISTS-LIBRARY-landing.png',
     repositoryLink: 'https://github.com/kangcarol/the-botanists-library',
@@ -22,7 +22,7 @@ export const projects = [
   },
   {
     title: 'AVI',
-    description: 'AVI is an app for birders that gives them a place to connect. App built with 3 other developers (see README file for more information). Built with React, Express, Mongoose, MongoDB, Node.js, CSS.',
+    description: 'AVI is an app for birders that gives them a place to connect. App built with 3 other developers (see README file for more information). Built with React, Express, Mongoose, MongoDB, NodeJS, CSS.',
     image: '/p-AVI-landing.png',
     repositoryLink: 'https://github.com/kangcarol/Avi-front-end',
     deploymentLink: 'https://avi-birding.netlify.app/',
