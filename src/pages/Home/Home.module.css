@@ -16,8 +16,9 @@
   color: var(--text-color);
 }
 
-.standard {
-  /* display: block; */
+.home img {
+  width: 60%;
+  height: 60%;
 }
 
 .mobile {
