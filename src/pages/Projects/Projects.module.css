@@ -34,6 +34,10 @@
   margin: 0 0 0 5%;
 }
 
+.projects a {
+  font-weight: bolder;
+}
+
 .projects a:hover {
   color: rgb(255, 162, 138) ;
 }
@@ -45,7 +49,7 @@
 
 .projects p {
   font-size: .85em;
-  font-weight: 300;
+  font-weight: 200;
   width: 100%;
   color: var(--text-color);
 }
