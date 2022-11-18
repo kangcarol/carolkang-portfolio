@@ -11,7 +11,7 @@ function NavBar() {
             <ul>
                 {(location.pathname ==='/') ? '' : <li><Link to='/'>CAROL KANG</Link></li>}
                 <li><Link to='/about'>ABOUT</Link></li>
-                <li><Link to='/experience'>EXPERIENCE</Link></li>
+                {/* <li><Link to='/experience'>EXPERIENCE</Link></li> */}
                 <li><Link to='/projects'>PROJECTS</Link></li> 
                 <li><Link to='/contact'>CONTACT</Link></li>
             </ul>
