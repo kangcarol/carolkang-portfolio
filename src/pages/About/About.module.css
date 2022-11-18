@@ -1,6 +1,8 @@
 .about {
   background-image: url('../../../public/portfolio-about-d.png');
   background-size: cover;
+  height: 100vh;
+  /* width: 100%; */
 }
 
 .about section {
@@ -95,7 +97,7 @@ details {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
   }
   
   .about div {
@@ -107,9 +109,9 @@ details {
     width: 100%;
   } 
   .about p {
-    width: 100%;
+    width: 90%;
     padding: 0;
-    font-size: 1em;
+    font-size: .85em;
     padding: 5% 0;
   }
 
