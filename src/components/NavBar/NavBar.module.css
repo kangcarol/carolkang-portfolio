@@ -1,3 +1,7 @@
+nav {
+  backdrop-filter: blur(10px);
+}
+
 .NavBar nav {
   display: flex;
   flex-direction: row;
@@ -31,3 +35,9 @@
   border-bottom: 1px solid white;
 }
 
+/* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  header {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+  } */
+/* } */
