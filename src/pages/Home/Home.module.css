@@ -34,7 +34,12 @@
     display: none;
   }
 
-  .mobile {
+  .mobile{
     display: block;
+  }
+
+  .home img {
+    width: 85%;
+    height: 85%;
   }
 }
