@@ -23,7 +23,7 @@ nav {
 
 .NavBar li {
   padding: 0 2%;
-  /* width: fit-content; */
+  font-size: 1.2em;
   justify-content: space-evenly;
 }
 
@@ -35,9 +35,9 @@ nav {
   border-bottom: 1px solid white;
 }
 
-/* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  header {
-    -webkit-backdrop-filter: blur(3px);
-    backdrop-filter: blur(3px);
-  } */
-/* } */
+@media only screen and (max-width: 768px) {
+
+  .NavBar li {
+    font-size: 1em;
+  }
+}
