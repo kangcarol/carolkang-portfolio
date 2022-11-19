@@ -15,7 +15,7 @@ export const projects = [
   },
   {
     title: 'The Phoenix',
-    description: 'Choose Your Own Adventure game based on the mythological Phoenix. Built with Javascript, HTML, CSS.   ** Designed for desktop, mouse required to play **',
+    description: 'Choose Your Own Adventure game based on the mythological Phoenix. Built with Javascript, HTML, CSS.   **Designed for desktop, mouse required to play.**',
     image: '/p-THE-PHOENIX-landing.png',
     repositoryLink: 'https://github.com/kangcarol/choose-your-own-adventure-the-phoenix',
     deploymentLink: 'https://carol-kang-cyoa-the-phoenix.netlify.app/',
