@@ -48,8 +48,8 @@
 }
 
 .projects p {
-  font-size: .85em;
-  font-weight: 200;
+  font-size: 1em;
+  font-weight: 300;
   width: 100%;
   color: var(--text-color);
 }
