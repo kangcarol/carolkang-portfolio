@@ -17,8 +17,22 @@
 }
 
 .home img {
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
+  float: right;
+}
+
+.home div {
+  float: left;
+  width: 20%;
+  z-index: 10;
+  margin-left: 23%;
+  margin-top: -7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 1.6em;
+  /* font-weight: 200; */
 }
 
 .mobile {
@@ -41,5 +55,11 @@
   .home img {
     width: 85%;
     height: 85%;
+  }
+
+  .home div {
+    font-size: 1em;
+    margin-left: -20%;
+    margin-top: -72%;
   }
 }
