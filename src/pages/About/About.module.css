@@ -2,7 +2,6 @@
   background-image: url('../../../public/portfolio-about-d.png');
   background-size: cover;
   height: 100vh;
-  /* width: 100%; */
 }
 
 .about section {
@@ -11,7 +10,6 @@
   justify-content: center;
   align-items: flex-start;
   width: 70%;
-  margin-top: -20%;
 }
 
 .about div {
@@ -71,7 +69,6 @@ details {
 
 .about ul {
   display: flex;
-  /* flex-direction: column; */
   justify-content: flex-start;
   align-items: baseline;
   padding: 0 20px;
@@ -98,6 +95,7 @@ details {
 }
 
 @media only screen and (max-width: 768px) {
+
   .about section {
     flex-direction: column;
     justify-content: center;
@@ -123,6 +121,7 @@ details {
   .about img {
     width: 50%;
     height: 50%;
+    margin-top: 5%;
   }
 
   .about article {
