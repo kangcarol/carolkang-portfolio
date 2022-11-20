@@ -21,14 +21,14 @@
 
 .contact h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
   padding: 0 0 10px 0;
   color: var(--text-color);
 }
 
 .contact h6 {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: 300;
   padding: 2%;
   color: var(--text-color);
