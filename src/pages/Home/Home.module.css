@@ -19,6 +19,7 @@
   flex-direction: column;
   justify-content: flex-start;
   font-size: 2em;
+  font-weight: 300;
 }
 
 .home a:hover {
