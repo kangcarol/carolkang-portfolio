@@ -8,6 +8,7 @@ const Projects = () => {
   return (
     <>
     <main  className={styles.projects}>
+      <h1>PROJECTS</h1>
       <section>
           <ProjectList projects={projects} />
       </section>

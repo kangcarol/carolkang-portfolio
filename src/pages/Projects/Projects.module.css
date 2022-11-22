@@ -5,39 +5,35 @@
   height: 100%;
   padding: 12% 0 0 0;
   justify-content: center;
+  flex-direction: column;
+}
+
+.projects h1 {
+  padding: 2% 0;
+  font-size: 2em;
+  color: white;
 }
 
 .projects section {
-  flex-wrap: wrap;
-  width: 60%;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-
-#project-article {
-  /* width: 80%; */
-  padding: 0 0 3% 0;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  width: 30%;
   justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
 }
 
 .projects img {
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
   box-shadow: 0 0 20px 5px rgba(82, 82, 82, 0.75);
 }
 
-.projects div {
+#project div {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-content: flex-start;
-  /* height: fit-content; */
-  width: fit-content;
-  /* margin: 0 0 0 5%; */
-  padding: 0 0 10% 0;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
 }
 
 .projects a:hover {
@@ -59,29 +55,29 @@
 .projects a {
   font-size: .9em;
   font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   color: var(--text-color);
-  padding: 10% 0 0 0;
+  padding: 0 0 10% 0;
+}
+
+.projects span {
+  padding: 2% 0 0 0;
+  width:fit-content;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
   .projects {
     height: 100%;
-    padding: 35% 0 0 0;
+    padding: 25% 0 0 0;
   }
 
   .projects section {
     width: 80%;
-  
-  }
-
-  .projects article {
-    width: 100%;
-    /* padding: 0 0 0 10%; */
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
   }
 
   .projects img {
@@ -92,7 +88,12 @@
 
   .projects div {
     width: 80%;
-    padding: 0 0 5% 0;
+    padding: 0 0 3% 0;
+  }
+
+  .projects h1 {
+    font-size: 1.5em;
+    padding: 0 0 10% 0;
   }
 
   .projects h4 {
@@ -100,7 +101,7 @@
     font-size: 1em;
   }
 
-  .projects a {
+  .projects > a {
     font-size: 1em;;
     padding: 5% 0 10% 0;
     text-align: center;

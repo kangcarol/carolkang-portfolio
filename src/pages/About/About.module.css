@@ -26,6 +26,7 @@
   height: 25%;
   border: 2px solid white;
   margin: 0 0 5% 0;
+  box-shadow: 0 0 20px 10px rgba(66, 66, 66, 0.75);
 }
 
 .about p {
