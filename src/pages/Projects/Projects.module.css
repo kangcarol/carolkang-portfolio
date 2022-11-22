@@ -11,12 +11,13 @@
 .projects h1 {
   padding: 2% 0;
   font-size: 2em;
+  font-weight: 200;
   color: white;
 }
 
 .projects section {
   display: flex;
-  width: 30%;
+  width: 25%;
   justify-content: center;
   align-items: center;
 }
