@@ -1,4 +1,5 @@
 import { useParams, Link } from "react-router-dom"
+import Carousel from 'react-bootstrap/Carousel';
 import findProject from "../../utilities/findProject"
 import styles from './ProjectDetail.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -12,7 +13,25 @@ const ProjectDetail = () => {
     <>
       <main>
         <section className={styles.ProjectDetail}>
-          <img src={project.image} alt={project.title}/>
+
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={project.image}
+              alt={project.title}
+            />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={project.image2} 
+              alt={project.title}
+            />
+          </Carousel.Item>
+        </Carousel>
+
           <p>{project.description}</p>
           <ul>
             <li><a href={project.repositoryLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode} /> Code</a></li>

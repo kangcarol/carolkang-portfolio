@@ -1,41 +1,43 @@
+
 .projects {
   background-image: url('../../../public/portfolio-projects-d.png');
   background-size: cover;
   height: 100%;
   padding: 12% 0 0 0;
+  justify-content: center;
 }
 
-.projects article {
+.projects section {
+  flex-wrap: wrap;
   width: 60%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#project-article {
+  /* width: 80%; */
   padding: 0 0 3% 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.projects a {
-  width: 100%;
-  height: 100%;
-}
-
 .projects img {
-  width: 20%;
-  height: 20%;
-  box-shadow: 0 0 20px 5px rgba(82, 82, 82, 0.75)
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 0 20px 5px rgba(82, 82, 82, 0.75);
 }
 
 .projects div {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-content: flex-start;
-  height: fit-content;
-  width: 50%;
-  margin: 0 0 0 5%;
-}
-
-.projects a {
-  font-weight: bolder;
+  /* height: fit-content; */
+  width: fit-content;
+  /* margin: 0 0 0 5%; */
+  padding: 0 0 10% 0;
 }
 
 .projects a:hover {
@@ -43,15 +45,23 @@
 }
 
 
-.projects h3, h4 {
+.Projects_projects h3, h4 {
   color: var(--text-color);
 }
 
-.projects p {
-  font-size: 1em;
+.projects h4 {
+  padding: 5% 0 1% 0;
+  font-size: 1.25em;
+  /* width: 50%; */
+  /* text-align: left; */
+}
+
+.projects a {
+  font-size: .9em;
   font-weight: 300;
   width: 100%;
   color: var(--text-color);
+  padding: 10% 0 0 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -60,19 +70,24 @@
     padding: 35% 0 0 0;
   }
 
+  .projects section {
+    width: 80%;
+  
+  }
+
   .projects article {
-    width: 90%;
-    padding: 0 0 0 10%;
+    width: 100%;
+    /* padding: 0 0 0 10%; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    /* justify-content: center;
+    align-items: center; */
   }
 
   .projects img {
-    width: 40%;
-    height: 40%;
-    margin: 0 0 0 5%;
+    width: 80%;
+    height: 80%;
+    /* margin: 0 0 0 5%; */
   }
 
   .projects div {
@@ -81,7 +96,14 @@
   }
 
   .projects h4 {
-    padding: 5% 0 0 0;
+    padding: 8% 0 0 0;
+    font-size: 1em;
+  }
+
+  .projects a {
+    font-size: .8em;;
+    padding: 5% 0 10% 0;
+    text-align: center;
   }
 
 }

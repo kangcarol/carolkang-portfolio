@@ -1,17 +1,23 @@
-.ProjectDetail section, img, p {
+.ProjectDetail img, p {
+  width: 100%;
+}
+
+main > section {
   width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .ProjectDetail img {
-  box-shadow: 0 0 20px 10px rgba(66, 66, 66, 0.75)
+  box-shadow: 0 0 20px 10px rgba(66, 66, 66, 0.75);
 }
 
 .ProjectDetail ul {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
-  padding: 0;
+  padding: 20px 0 0 0;
 }
 
 .ProjectDetail li {

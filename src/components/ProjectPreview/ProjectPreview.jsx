@@ -3,20 +3,22 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
+
 const ProjectPreview = (props) => {
   const path = hyphenateWords(props.projectTitle)
+
   return (
     <>
-      <article>
+      {/* <article id="project-article"> */}
+        {/* <h4>{props.projectTitle}</h4> */}
         <img src={props.projectImage} alt={props.projectTitle} />
-        <div>
-          <h4>{props.projectTitle}</h4>
-          <p>{props.projectDescription}</p>
+        <div >
+          {/* <p>{props.projectDescription}</p> */}
           
-          <p><Link to={`/projects/${path}`}><FontAwesomeIcon icon={faMagnifyingGlass} />    Learn More</Link></p>
+          <Link to={`/projects/${path}`}><FontAwesomeIcon icon={faMagnifyingGlass} />    Learn More</Link>
           
         </div>
-      </article>
+      {/* </article> */}
     </>
   )
 }
