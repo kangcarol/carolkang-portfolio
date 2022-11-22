@@ -4,6 +4,10 @@
   height: 100vh;
 }
 
+.about main {
+  width: 100vw;
+}
+
 .about section {
   display: flex;
   flex-direction: row;
@@ -32,7 +36,8 @@
 .about p {
   width: 100%;
   padding: 0 3%;
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: 200;
   color: var(--text-color);
 }
 
@@ -105,7 +110,7 @@ details {
   }
   
   .about div {
-    width: 100%;
+    width: 90%;
   }
   
   .about summary {
@@ -115,7 +120,7 @@ details {
   .about p {
     width: 95%;
     padding: 0;
-    font-size: .85em;
+    font-size: 1.1em;
     padding: 5% 0;
   }
 

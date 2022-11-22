@@ -31,7 +31,6 @@ main > section {
   font-size: .85em;
 }
 
-
 @media only screen and (max-width: 768px) {
   .ProjectDetail section, img, p {
     width: 80%;
