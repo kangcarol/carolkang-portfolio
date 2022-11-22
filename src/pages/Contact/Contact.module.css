@@ -36,7 +36,7 @@
 
 .contact p {
   padding: 0 0 0 5px;
-  font-size: 1.5em;
+  font-size: 1.35em;
   color: var(--text-color);
   background-color: none;
   text-align: left;
@@ -64,5 +64,10 @@
 
   .contact a {
     width: 50%;
+  }
+
+  .contact h6 {
+    font-size: 1.2em;
+    padding: 10% 0;
   }
 }
