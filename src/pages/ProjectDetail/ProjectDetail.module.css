@@ -32,8 +32,16 @@ main > section {
 }
 
 @media only screen and (max-width: 768px) {
-  .ProjectDetail section, img, p {
+  main > section {
     width: 80%;
+  }
+
+  .ProjectDetail p {
+    padding: 5% 0 0 0;
+  }
+
+  .ProjectDetail li {
+    font-size: .75em;
   }
   
 }
