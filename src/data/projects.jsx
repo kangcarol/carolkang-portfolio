@@ -32,6 +32,14 @@ export const projects = [
     deploymentLink: 'https://avi-birding.netlify.app/',
   },
   {
+    title: 'Carol Kang Ceramics',
+    description: 'A portfolio site for ceramics. Built with React, Javascript, HTML, CSS.',
+    image: '/p-CAROLKANG-CERAMICS-landing.png',
+    image2: '/p-CAROLKANG-CERAMICS-detail.png',
+    repositoryLink: 'https://github.com/kangcarol/carolkang-ceramics',
+    deploymentLink: 'https://carolkang-ceramics.netlify.app',
+  },
+  {
     title: 'Tic Tac Toe',
     description: 'A classic game in a graphic color scheme and animation. Built with Javascript, HTML, CSS.',
     image: '/p-TIC-TAC-TOE-main.png',
