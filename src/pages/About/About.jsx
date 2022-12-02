@@ -44,8 +44,10 @@ function About() {
                   <li>Express</li>
                   <li>NodeJS</li>
                   <li>Django</li>
+                  <li>Docker</li>
                   <li>PostgreSQL</li>
                   <li>Python</li>
+                  <li>Bootstrap</li>
                 </ul>
             </details>
           </article>

@@ -32,13 +32,15 @@ const ProjectDetail = () => {
           </Carousel.Item>
         </Carousel>
 
-          <p>{project.description}</p>
           <ul>
             <li><a href={project.repositoryLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faCode} /> Code</a></li>
             <span></span>
             <li><a href={project.deploymentLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMagnifyingGlass} /> View</a></li>
             <li><Link to='/projects'> Other Projects</Link></li>
           </ul>
+          <p><span>DESCRIPTION:</span>  {project.description}</p>
+          <p><span>OBJECTIVE:</span>  {project.objective}</p>
+          <p><span>TIMELINE:</span>  {project.timeline}</p>
         </section>
       </main> 
     </>
