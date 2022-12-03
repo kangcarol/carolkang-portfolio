@@ -80,7 +80,6 @@ details {
   padding: 0 20px;
   width: 100%;
   flex-wrap: wrap;
-  /* font-size: .75em;  */
   margin: 0;
   width: fit-content;
 }
@@ -91,7 +90,7 @@ details {
 }
 
 .about li {
-  font-size: .65em;
+  font-size: .75em;
   margin: 5px;
   background-color: gray;
   color: white;
@@ -101,6 +100,10 @@ details {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .about {
+    height: 100vh;
+  }
 
   .about section {
     flex-direction: column;

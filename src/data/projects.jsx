@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     title: 'AVI',
-    description: 'AVI is an app for birders that gives them a place to connect. App built with 3 other developers (see README file for more information). Built with React, Express, Mongoose, MongoDB, NodeJS, CSS.',
+    description: 'AVI is an app for birders that gives them a place to connect. App built with three other developers. Built with React, Express, Mongoose, MongoDB, NodeJS, CSS.',
     timeline: 'Project completed in one week',
     objective: 'AVI is a MERN stack app created with three other software engineers. We were to architect, design, and collaboratively build a full-stack web app. All group members were each responsible for a CRUD component, as well as CSS execution.  My role was primarily as a front end engineer, creator of the design concept and logo, CRUD for the birds.  ',
     image: '/p-AVI-landing.png',

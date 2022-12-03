@@ -29,12 +29,12 @@
   box-shadow: 0 0 20px 5px rgba(82, 82, 82, 0.75);
 }
 
-p {
+.projects p {
   color: white;
 }
 
 article {
-  width: 60%;
+  width: 57%;
   padding: 0 0 0 5%;
 }
 
@@ -115,6 +115,10 @@ article {
     font-size: 1em;;
     padding: 5% 0 10% 0;
     text-align: center;
+  }
+
+  .projects p {
+    font-size: .8em;
   }
 
 }
