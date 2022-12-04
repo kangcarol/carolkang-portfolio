@@ -90,20 +90,19 @@ details {
 }
 
 .about li {
-  font-size: .75em;
+  font-size: .7em;
   margin: 5px;
   background-color: gray;
   color: white;
   padding: 5px;
   border-radius: 3px;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 @media only screen and (max-width: 768px) {
 
   .about {
     height: 100vh;
-    width: 100vw;
   }
 
   .about section {
@@ -126,13 +125,13 @@ details {
     padding: 0;
     font-size: .9em;
     font-weight: 300;
-    padding: 5% 0;
+    padding: 4% 0;
   }
 
   .about img {
-    width: 50%;
-    height: 50%;
-    margin-top: 10%;
+    width: 45%;
+    height: 45%;
+    margin-top: 8%;
   }
 
   .about article {
