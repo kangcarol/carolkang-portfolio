@@ -51,7 +51,7 @@ export const projects = [
   },
   {
     title: 'Tic Tac Toe',
-    description: 'A classic game in a graphic color scheme and animation. Built with Javascript, HTML, CSS.',
+    description: 'A classic game in a graphic color scheme with animation. Built with Javascript, HTML, CSS.',
     timeline: 'Project completed in one week',
     objective: 'Tic Tac Toe was my first coding assignment, utilizing conditional statements.',
     image: '/p-TIC-TAC-TOE-main.png',
