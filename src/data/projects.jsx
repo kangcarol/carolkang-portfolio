@@ -30,16 +30,6 @@ export const projects = [
     deploymentLink: 'https://carol-kang-cyoa-the-phoenix.netlify.app/',
   },
   {
-    title: 'AVI',
-    description: 'AVI is an app for birders that gives them a place to connect. App built with three other developers. Built with React, Express, Mongoose, MongoDB, NodeJS, CSS.',
-    timeline: 'Project completed in one week',
-    objective: 'AVI is a MERN stack app created with three other software engineers. We were to architect, design, and collaboratively build a full-stack web app. All group members were each responsible for a CRUD component, as well as CSS execution.  My role was primarily as a front end engineer, creator of the design concept and logo, CRUD for the birds.',
-    image: '/p-AVI-landing.png',
-    image2: '/p-AVI-birds.png',
-    repositoryLink: 'https://github.com/kangcarol/Avi-front-end',
-    deploymentLink: 'https://avi-birding.netlify.app/',
-  },
-  {
     title: 'Carol Kang Ceramics',
     description: 'A portfolio site for ceramics. Built with React, Javascript, HTML, CSS.',
     timeline: 'Project completed in less than one week',
@@ -48,6 +38,16 @@ export const projects = [
     image2: '/p-CAROLKANG-CERAMICS-detail.png',
     repositoryLink: 'https://github.com/kangcarol/carolkang-ceramics',
     deploymentLink: 'https://carolkang-ceramics.netlify.app',
+  },
+  {
+    title: 'AVI',
+    description: 'AVI is an app for birders that gives them a place to connect. App built with three other developers. Built with React, Express, Mongoose, MongoDB, NodeJS, CSS.',
+    timeline: 'Project completed in one week',
+    objective: 'AVI is a MERN stack app created with three other software engineers. We were to architect, design, and collaboratively build a full-stack web app. All group members were each responsible for a CRUD component, as well as CSS execution.  My role was primarily as a front end engineer, creator of the design concept and logo, CRUD for the birds.',
+    image: '/p-AVI-landing.png',
+    image2: '/p-AVI-birds.png',
+    repositoryLink: 'https://github.com/kangcarol/Avi-front-end',
+    deploymentLink: 'https://avi-birding.netlify.app/',
   },
   {
     title: 'Tic Tac Toe',
