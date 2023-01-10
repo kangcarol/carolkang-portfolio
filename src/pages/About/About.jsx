@@ -18,7 +18,7 @@ function About() {
           </p>
 
           <article>
-            <a href="/Carol_Kang_Resume_2022.pdf" target="_blank" rel="noreferrer" alt="Carol Kang resume">
+            <a href="/Carol_Kang_Resume.pdf" target="_blank" rel="noreferrer" alt="Carol Kang resume">
               <span className={styles.resume}>
                 <h2><FontAwesomeIcon icon={faFile}/></h2>
                 <h2>CV</h2>
