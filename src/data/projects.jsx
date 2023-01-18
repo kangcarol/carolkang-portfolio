@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     title: 'Carol Kang Ceramics',
-    description: 'A portfolio site for ceramics. Built with React, Javascript, HTML, CSS.',
+    description: 'A portfolio site for ceramics. Built with React, Javascript, CSS.',
     timeline: 'Project completed in less than one week',
     objective: 'Independent project created post-Software Engineering Immersive course. This project was to create a template for portfolio sites.',
     image: '/p-CAROLKANG-CERAMICS-landing.png',
