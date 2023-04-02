@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     title: 'The Phoenix',
-    description: 'Choose Your Own Adventure game based on the mythological Phoenix. Built with Javascript, HTML, CSS.   **Designed for desktop, mouse or trackpad required to play.**',
+    description: 'Choose Your Own Adventure game based on the mythological Phoenix. Built with Javascript, HTML, CSS.   **Designed for desktop, mouse or trackpad required to play**',
     timeline: 'Project completed in one week',
     objective: 'The Phoenix was my first independent project. Technical requirement was to use win/lose logic.  It utilized conditional statements, DOM manipulation, CSS flex and grid features. Code and design completed as an independent project.',
     image: '/p-THE-PHOENIX-landing.png',
@@ -49,6 +49,17 @@ export const projects = [
     repositoryLink: 'https://github.com/kangcarol/Avi-front-end',
     deploymentLink: 'https://avi-birding.netlify.app/',
   },
+  {
+    title: 'Carol Kang UX Portfolio',
+    description: 'User Experience Design Portfolio, this is not an example of coding skills, built with CMS in the interim. **Work in Progress**',
+    timeline: 'On going project',
+    objective: 'Portfolio site to showcase my UX Design work. Research, design, and development, working cross functionally with teams to create internal business solutions.',
+    image: '/p-CAROLKANG-UX-landing.png',
+    image2: '/p-CAROLKANG-UX-detail.png',
+    // repositoryLink: 'NA',
+    deploymentLink: 'https://www.carolkang-ux.com/',
+  },
+
   // {
   //   title: 'Tic Tac Toe',
   //   description: 'A classic game in a graphic color scheme with animation. Built with Javascript, HTML, CSS.',
