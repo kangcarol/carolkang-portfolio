@@ -7,8 +7,8 @@ function Home() {
     <>
       <main className={styles.home}>
         <section>
-          <img src="/carolkang-portfolio-logo.png" alt="Carol Kang logo" className={styles.standard}/>
-          <img src="/carolkang-portfolio-logo-mobile.png" alt="Carol Kang logo" className={styles.mobile}/>
+          <img src="/carolkang-portfolio-logo.png" alt="logo" className={styles.standard}/>
+          <img src="/carolkang-portfolio-logo-mobile.png" alt="logo" className={styles.mobile}/>
           <div>
             <Link to='/about'>ABOUT</Link>
             <Link to='/projects'>PROJECTS</Link>
