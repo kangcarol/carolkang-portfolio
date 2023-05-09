@@ -10,7 +10,7 @@ function About() {
         <section>
           <img 
             src='./carolkang.jpeg'
-            alt="carol-kang"
+            alt="ckang"
             className="self-img" 
           />
         <div>
